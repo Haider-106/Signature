@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeaeae;
+}
+.signature-pad-wrapper {
+    width: 50%;
+    height: 75%;
+    border: 2px solid #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 0; /* Added padding for aesthetic spacing */
+}
+.signature-pad {
+    width: 90%;
+    height: 50%;
+    border: 1px solid #ccc; /* Lighter border for the signature pad itself */
+    background-color: #ffffff; /* Default background color */
+}
+h1 {
+    color: #007BFF;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+label {
+    margin-top: 10px;
+}

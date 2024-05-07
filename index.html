@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signature-pad-wrapper">
+        <h1>Signature Platform</h1>
+        <p>Please sign in the box below:</p>
+        <canvas id="signature-pad" class="signature-pad"></canvas>
+        <button id="clear-btn">Clear</button>
+        <button id="save-btn">Download</button>
+        <label for="bg-color">Background Color:</label>
+        <input type="color" id="bg-color" value="#ffffff">
+        <label for="pen-color">Pen Color:</label>
+        <input type="color" id="pen-color" value="#000000">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
